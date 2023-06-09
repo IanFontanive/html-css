@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+        }
+
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav {
+            background-color: rgb(102, 102, 102);
+            padding: 3px;
+            box-shadow: 2px 2px 2px black;
+        }
+
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            margin: 50px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 30px;
+        }
+
+        article {
+            background-color: lightgray;
+            padding: 5px;
+        }
+
+        article > aside {
+            background-color: rgb(156, 165, 173);   
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 2px;
+            margin: 0px;
+        }
+
+        div#bola {
+            height: 299px;
+            width: 299px;
+            background-color: white;
+            margin: 10px;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id ="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+            <h2>Notícias sobre o Brasil</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus incidunt voluptatum quia tempore officiis reprehenderit suscipit placeat? Quia, odit dolore, sint quibusdam sit, omnis fuga tempore aperiam non ipsum dolorum?</p>
+                <aside>
+                    <p>Artigo escrito por As Vozes na Minha Cabeça.</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+        <section>
+
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo Animal entre o teclado e a cadeira.</p>
+    </footer>
+
+    <div id="bola">
+
+    </div>
+</body>
+</html>
