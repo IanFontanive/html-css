@@ -1,0 +1,68 @@
+@charset "UTF-8";
+    
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body, html{
+    color: rgb(253, 253, 253);
+    background-color: #7d8381;
+}
+
+header > h1 {
+    color: black;
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
+    padding-top: 20px;
+    padding-bottom: 8px;
+}
+
+header > h2 {
+    color: black;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.1em;
+}
+
+span#pense {    
+    color: black;
+    background-color: white;
+    padding: 8px;
+    text-align: center;
+    display: block;
+    cursor: pointer;
+}
+
+span#pense:hover {
+    color: white;
+    background-color: black;
+}
+
+menu {
+    display: none;
+}
+
+menu > ul {
+    list-style-type: none;
+}
+
+menu > ul > li > a {
+    display: block;
+    padding: 5px;
+    margin: 2px;
+    text-decoration: none;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+article {
+    text-align:justify;
+    color: black;
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
